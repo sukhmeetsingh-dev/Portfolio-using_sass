@@ -1,6 +1,8 @@
 @import './config.scss';
 @import './home.scss';
 @import './menu.scss';
+@import './about.scss';
+@import './projects.scss';
 
 body {
     background: $primary-color;
@@ -17,6 +19,10 @@ h1, h2, h3 {
 a {
     color: set-text-color($primary-color);
     text-decoration: none;
+}
+
+.text-secondary {
+    color: $secondary-color;
 }
 
 header {
